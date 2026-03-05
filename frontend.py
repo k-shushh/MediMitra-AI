@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_URL = "https://medimitra-api.onrender.com/"
+API_URL = "https://medimitra-api.onrender.com/chat"
 
 st.set_page_config(page_title="MediMitra AI", page_icon="🩺", layout="centered")
 
