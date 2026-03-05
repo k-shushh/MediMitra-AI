@@ -13,10 +13,10 @@ The goal of MediMitra is to help users better understand their symptoms and enco
 You can try MediMitra here:
 
 **Frontend:**
-https://YOUR_STREAMLIT_LINK.streamlit.app
+[https://YOUR_STREAMLIT_LINK.streamlit.app](https://medimitra-ai-k-shushh.streamlit.app/)
 
 **Backend API Docs:**
-https://YOUR_RENDER_LINK.onrender.com/docs
+[https://YOUR_RENDER_LINK.onrender.com/docs](https://medimitra-api.onrender.com/docs)
 
 ---
 
@@ -79,7 +79,7 @@ medimitra-ai
 Example input:
 
 ```
-I have fever, headache, nausea and dizziness
+I have headache, nausea, visual disturbances and sensitivity to light
 ```
 
 ### 2. Symptom Extraction
@@ -89,7 +89,7 @@ The NLP module identifies known symptoms from the text.
 Example:
 
 ```
-["fever", "headache", "nausea", "dizziness"]
+["nausea", "headache", "visual disturbances", "sensitivity to light"]
 ```
 
 ### 3. Disease Prediction
@@ -99,8 +99,8 @@ A trained ML model predicts the most likely disease and provides a confidence sc
 Example output:
 
 ```
-Predicted Disease: Dengue
-Confidence: 74%
+Predicted Disease: Migraine
+Confidence: 20.5%
 ```
 
 ### 4. LLM Explanation
@@ -127,15 +127,15 @@ You can test MediMitra in two ways.
 Try entering:
 
 ```
-I have fever and severe headache
+I have excessive hunger, polyuria, weight loss and fatigue
 ```
 
 ```
-back pain, nausea and fatigue
+I have headache, chest pain, dizziness and loss of balance
 ```
 
 ```
-I feel dizzy and have chest pain
+I have yellowing of eyes, dark urine, fatigue and itching
 ```
 
 ---
@@ -147,7 +147,7 @@ You can test the backend API directly.
 1. Open the API docs link:
 
 ```
-https://YOUR_RENDER_LINK.onrender.com/docs
+[https://YOUR_RENDER_LINK.onrender.com/docs](https://medimitra-api.onrender.com/docs)
 ```
 
 2. Find the **POST /chat** endpoint
@@ -158,7 +158,7 @@ https://YOUR_RENDER_LINK.onrender.com/docs
 
 ```json
 {
- "message": "I have fever and headache"
+ "message": "I have excessive hunger, polyuria, weight loss and fatigue"
 }
 ```
 
@@ -168,8 +168,8 @@ Example response:
 
 ```json
 {
-  "predicted_disease": "Malaria",
-  "confidence": 68.2,
+  "predicted_disease": "Diabetes",
+  "confidence": 37,
   "explanation": "Based on the symptoms described..."
 }
 ```
@@ -181,7 +181,7 @@ Example response:
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/medimitra-ai.git
+git clone https://github.com/k-shushh/MediMitra-AI.git
 cd medimitra-ai
 ```
 
@@ -258,3 +258,4 @@ Khushi Gupta
 # 📜 License
 
 This project is intended for educational and research purposes.
+
