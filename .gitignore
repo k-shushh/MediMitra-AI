@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+medimitra_env/
+.env
+data/
+disease_dataset/
+extracted_dataset/
