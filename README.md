@@ -13,10 +13,10 @@ The goal of MediMitra is to help users better understand their symptoms and enco
 You can try MediMitra here:
 
 **Frontend:**
-[https://YOUR_STREAMLIT_LINK.streamlit.app](https://medimitra-ai-k-shushh.streamlit.app/)
+https://medimitra-ai-k-shushh.streamlit.app/
 
 **Backend API Docs:**
-[https://YOUR_RENDER_LINK.onrender.com/docs](https://medimitra-api.onrender.com/docs)
+https://medimitra-api.onrender.com/docs
 
 ---
 
@@ -147,7 +147,7 @@ You can test the backend API directly.
 1. Open the API docs link:
 
 ```
-[https://YOUR_RENDER_LINK.onrender.com/docs](https://medimitra-api.onrender.com/docs)
+https://medimitra-api.onrender.com/docs
 ```
 
 2. Find the **POST /chat** endpoint
@@ -258,4 +258,5 @@ Khushi Gupta
 # 📜 License
 
 This project is intended for educational and research purposes.
+
 
